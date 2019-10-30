@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+......
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -64,3 +65,62 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.top {
+	color:grey;
+	word-spacing:200px;
+	margin:0 auto;
+	display: block;
+	padding-left: 10%;
+}
+
+.middle-img {
+	display: block;
+	margin: 0 auto;
+}
+
+.circle {
+	float:right;
+}
+
+.big-box {
+	display: block;
+	margin:0 auto;
+}
+.inno {
+	font-size: 500%;
+	color:black;
+	text-align: center;	
+	margin: 100px;	
+	border:1px red;
+	padding:100px;
+
+}
+.box1 {
+	font-size:normal;
+	border: 5px;
+	Color:grey;
+	text-align: center;
+}
+.logo {
+	
+}
+.upper{
+	border: 1px solid red;
+}
+
+.feat {
+	text-align: left;
+	border: 3px red;
+	margin: 50px;
+}
+.serv { 
+	text-align: left;
+	border: 3px red;
+	margin: 50px;
+}
+.contact {
+	text-align: left;
+	border: 3px red;
+	margin: 30px;
+}

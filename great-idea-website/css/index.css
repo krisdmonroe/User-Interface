@@ -23,7 +23,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-......
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -63,64 +62,126 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
-/* Your code starts here! */
-
-.top {
+/* nav {
+ display:inline-block;
+ width: 80%;
+ margin:0 auto;
+} */
+.nav1 {
 	color:grey;
-	word-spacing:200px;
 	margin:0 auto;
 	display: block;
 	padding-left: 10%;
+	display:inline-block;
+	width: 90%;
+	margin:0 auto 50px;
+	position: relative;
 }
+
+a{
+	margin-right:80px;
+	color:grey;
+	text-decoration:none;
+}
+
 
 .middle-img {
 	display: block;
 	margin: 0 auto;
+	padding:10px;
 }
 
-.circle {
+/* .circle {
 	float:right;
-}
+} */
 
 .big-box {
 	display: block;
 	margin:0 auto;
 }
 .inno {
-	font-size: 500%;
 	color:black;
-	text-align: center;	
-	margin: 100px;	
-	border:1px red;
-	padding:100px;
-
+	display: inline-block;
+	position: relative;
+	bottom:125px;
+	margin-right:200px
 }
-.box1 {
+.get {
 	font-size:normal;
-	border: 5px;
-	Color:grey;
-	text-align: center;
+	padding:10px;
+	border: 1px solid black;
+	color:grey;
+	margin:5px;
+	/* display: inline-block; */
+
 }
 .logo {
-	
+	display:inline-block;
+	position: absolute;
+	right:0;
 }
 .upper{
-	border: 1px solid red;
+	
+}
+.left-features {
+	display:inline-block;
+	
+	width:49%;
 }
 
-.feat {
-	text-align: left;
-	border: 3px red;
-	margin: 50px;
+.right-about {
+	display:inline-block;
+	
+	width: 49%;
 }
-.serv { 
-	text-align: left;
-	border: 3px red;
-	margin: 50px;
+
+.header-img {
+	display: inline-block;
+	
+	/* margin-left:800px; */
+}
+
+.services{
+	display:inline-block;
+	width:30%;
+	border:2px red;
+}
+.product{
+	display:inline-block;
+	width:30%;
+	;
+}
+.vision{
+	display:inline-block;
+	width:30%;
+	
+}
+body {
+	margin:0 10%;
 }
 .contact {
-	text-align: left;
-	border: 3px red;
-	margin: 30px;
+	width:25%;
+	margin:30px 0;
+	border:20px;
+}
+.copyright {
+	text-align: center;	
+	font-size:small;
+}
+
+.inno span {
+	display:block;
+	margin:20px 0;
+	font-size: 50px;
+	font-weight: bolder;
+}
+.main1 {
+	 text-align: center;
+}
+.bottom {
+	margin:20px 0;
+	width:110%;
+}
+hr {
+	margin:20px 0;
 }
